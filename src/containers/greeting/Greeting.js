@@ -46,7 +46,7 @@ const Greeting = () => {
             <div className="button-greeting-div">
               {greeting.resumeLink && (
                 <Button
-                  text="Download CV"
+                  text="View CV"
                   newTab={true}
                   href={greeting.resumeLink}
                   target="_blank"
